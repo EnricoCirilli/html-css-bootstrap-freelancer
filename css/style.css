@@ -1,10 +1,27 @@
-.col{
-    border: 2px red solid;
-    text-align: center;
-}
+
+/* debug elements */
+
 .row{
     text-align: center;
 }
+.header{
+    background-color: lightblue;
+}
+.hero{
+    background-color: lightcoral;
+}
 .portfolio{
-    border: 2px red solid;
+    background-color: lightblue;
+}
+.img-portfolio{
+    background-color: lightcoral;
+}
+.about{
+    background-color: lightblue;
+}
+.contact{
+    background-color: lightcoral;
+}
+.footer{
+    background-color: lightblue;
 }
