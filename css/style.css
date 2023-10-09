@@ -1,9 +1,9 @@
 
 /* debug elements */
 
-.row{
+/* .row{
     text-align: center;
-}
+} */
 .header{
     background-color: lightblue;
 }
@@ -14,7 +14,7 @@
     background-color: lightblue;
 }
 .img-portfolio{
-    background-color: lightcoral;
+   
 }
 .about{
     background-color: lightblue;
@@ -22,6 +22,9 @@
 .contact{
     background-color: lightcoral;
 }
-.footer{
+.footer-top{
     background-color: lightblue;
+}
+.footer-bottom{
+    background-color: lightcoral;
 }
