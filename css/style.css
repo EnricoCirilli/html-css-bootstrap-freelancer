@@ -20,7 +20,7 @@
     background-color: var(--primary-color);
 }
 .hero img{
-    width: 200px;
+    width: 9rem;
 }
 .hero h1,p,span{
     color: var(--primary-text-color);
@@ -42,10 +42,14 @@
     color:var(--secondary-text-color)
 }
 .footer-top{
-    background-color: var(--secondary-color);
+    background-color: #3A546D;
+    min-height: 250px;
+    padding-top: 50px;
 }
 .footer-bottom{
-    background-color: var(--secondary-color);
+    background-color: #2C3E50;
+    min-height: 120px;
+    padding-top: 50px;
 }
 .send-btn{
     background-color: #1ABC9C;
@@ -59,5 +63,20 @@ h6{
 }
 .footer-right{
     color: var(--primary-text-color);
+    padding-top: 30px;
 }
+.social i{
+color: white;
+border: 1px solid white;
+width: 50px;
+height: 50px;
+font-size: 30px;
+padding-top: 10px;
+border-radius: 50%;
+
+}
+.social{
+    padding: 30px;
+}
+
 
