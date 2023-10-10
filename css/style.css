@@ -51,4 +51,13 @@
     background-color: #1ABC9C;
     color: white;
 }
+h6{
+    color: var(--primary-text-color);
+}
+.footer-span{
+    color:  var(--primary-color);
+}
+.footer-right{
+    color: var(--primary-text-color);
+}
 
