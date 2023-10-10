@@ -1,31 +1,47 @@
 
+
+/* custom properties */
+:root{
+    --primary-color:#1ABC9C;
+    --secondary-color:#2C3E50;
+    --primary-text-color:white;
+    --secondary-text-color: black;
+}
+
+
 /* debug elements */
 
-/* .row{
-    text-align: center;
-} */
-.header{
-    background-color: lightblue;
+
+.ms_header{
+    background-color: var(--secondary-color);
+    color: var(--primary-text-color);
 }
 .hero{
-    background-color: lightcoral;
+    background-color: var(--primary-color);
 }
-.portfolio{
-    background-color: lightblue;
+.hero img{
+    width: 200px;
+}
+.hero h1,p,span{
+    color: var(--primary-text-color);
+}
+
+.portfolio span{
+  color: var(--secondary-text-colorcolor);
 }
 .img-portfolio{
    
 }
 .about{
-    background-color: lightblue;
+    background-color: var(--primary-color);
 }
 .contact{
-    background-color: lightcoral;
+
 }
 .footer-top{
-    background-color: lightblue;
+    background-color: var(--secondary-color)
 }
 .footer-bottom{
-    background-color: lightcoral;
+    background-color: var(--secondary-color);
 }
 
