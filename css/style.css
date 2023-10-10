@@ -47,4 +47,8 @@
 .footer-bottom{
     background-color: var(--secondary-color);
 }
+.send-btn{
+    background-color: #1ABC9C;
+    color: white;
+}
 
