@@ -35,11 +35,14 @@
 .about{
     background-color: var(--primary-color);
 }
-.contact{
-
+.about h3{
+    color: var(--primary-text-color);
+}
+.contact span{
+    color:var(--secondary-text-color)
 }
 .footer-top{
-    background-color: var(--secondary-color)
+    background-color: var(--secondary-color);
 }
 .footer-bottom{
     background-color: var(--secondary-color);
