@@ -18,6 +18,7 @@
 }
 .hero{
     background-color: var(--primary-color);
+    padding-top: 30px;
 }
 .hero img{
     width: 9rem;
@@ -25,22 +26,52 @@
 .hero h1,p,span{
     color: var(--primary-text-color);
 }
-
+.portfolio{
+    padding-top: 50px;
+}
 .portfolio span{
   color: var(--secondary-text-colorcolor);
 }
-.img-portfolio{
+
+.star {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
    
-}
+  }
+  
+ .border-c {
+    width: 15%;
+    border: 2px solid white;
+    margin: 10px;
+  }
 .about{
     background-color: var(--primary-color);
+    padding: 30px;
 }
-.about h3{
+.about h3,p{
     color: var(--primary-text-color);
+    padding: 30px;
 }
 .contact span{
     color:var(--secondary-text-color)
 }
+.star-contact {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+ .border-con {
+    width: 15%;
+    border: 2px solid black;
+    margin: 10px;
+  }
 .footer-top{
     background-color: #3A546D;
     min-height: 250px;
@@ -78,5 +109,6 @@ border-radius: 50%;
 .social{
     padding: 30px;
 }
+
 
 
