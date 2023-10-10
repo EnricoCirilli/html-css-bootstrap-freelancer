@@ -11,7 +11,15 @@
 
 /* debug elements */
 
-
+.hamburger{
+    border:white solid 1px;
+}
+.ms_nav-bar {
+    flex-grow: 0;
+}
+.ms_nav-bar li a{
+    color: var(--primary-text-color);
+}
 .ms_header{
     background-color: var(--secondary-color);
     color: var(--primary-text-color);
